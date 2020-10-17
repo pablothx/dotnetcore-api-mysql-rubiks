@@ -1,0 +1,1 @@
+https://entityframework-extensions.net/efcore-pomelo-mysql-provider
