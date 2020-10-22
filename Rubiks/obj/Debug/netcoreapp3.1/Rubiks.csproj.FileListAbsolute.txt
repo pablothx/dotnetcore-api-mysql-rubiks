@@ -31,11 +31,8 @@
 /home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/MySqlConnector.dll
 /home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
 /home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
-/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/home/pablo/sitrack/repos/github/dotnetcore-api-mysql-rubiks/Rubiks/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll

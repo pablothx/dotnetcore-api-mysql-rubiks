@@ -7,20 +7,8 @@ CREATE DATABASE Rubik;
 
 USE Rubik;
 
-CREATE TABLE RubiksCube (
-RubikId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-Name VARCHAR(30) NOT NULL,
-Sides VARCHAR(30) NOT NULL,
-Complexity VARCHAR(30) NOT NULL,
-Description VARCHAR(5000)
-)
+Follow the following steps https://entityframework-extensions.net/efcore-pomelo-mysql-provider
 
-CREATE TABLE TrackingSolution (
-TrackingSolution INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-RubikId  INT(6) UNSIGNED NOT NULL,
-ResolutionDate DATETIME NOT NULL,
-ResolutionFinishedSeconds INT NOT NULL
-)
 
 Must have DotNet-Core installed on your system.
 
@@ -28,8 +16,24 @@ Then we create the "webapi" solution:
 
 ` dotnet new webapi -n Rubiks ` 
 
-We run EF Migrations
-You must have DotNet-Core references in  on your Rubiks.csproj file.
+Clone this repo
 
-` dotnet ef dbcontext scaffold "Server=localhost;database=Rubik;user=root;pwd=pass;" "Pomelo.EntityFrameworkCore.MySql" -o \Models -f ` 
+dotnet ef migrations add InitialMigration 
 
+Run:
+dotnet restore
+dotnet build
+dotnet run
+
+GET
+https://localhost:5001/api/rubiks
+
+POST
+https://localhost:5001/api/rubiks
+
+{
+"Name": "POST Test",
+"Sides": 6,
+"Complexity": "EASY",
+"Description": " Desc"
+}

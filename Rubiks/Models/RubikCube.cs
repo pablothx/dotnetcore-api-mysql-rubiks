@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Rubiks.Models
@@ -10,6 +11,11 @@ namespace Rubiks.Models
         public int Sides { get; set; }
         public string Complexity { get; set; }
         public string Description { get; set; }
+
+        public static explicit operator RubikCube(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
