@@ -22,6 +22,20 @@ namespace Rubiks.Controllers
             };
         }
 
+        [HttpGet("{id}")]
+        public ActionResult<RubikCube> GetById(int id)
+        {
+           using (var db = new RubikContext())
+            {
+                var rubik = db.RubikCube.First(c => c.RubikId == id);
+
+                return Ok(rubik);
+            };
+           
+
+
+        }
+
         [HttpPost]
         public ActionResult<IEnumerable<RubikCube>> Post(RubikCube rubikCube)
         {
@@ -30,9 +44,8 @@ namespace Rubiks.Controllers
                 List<RubikCube> rubikList= new List<RubikCube>();
                 rubikList.Add(rubikCube);
                 db.BulkInsert(rubikList);
-
             }
-            
+           
             return Ok(rubikCube);
         }
     }
